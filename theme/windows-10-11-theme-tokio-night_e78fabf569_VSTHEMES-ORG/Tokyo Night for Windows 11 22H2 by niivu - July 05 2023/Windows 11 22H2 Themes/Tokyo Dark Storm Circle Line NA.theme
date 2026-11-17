@@ -1,0 +1,55 @@
+; Copyright © niivu DESIGNS.
+
+[Theme]
+; Windows - IDS_THEME_DISPLAYNAME_Tokyo Dark Storm Circle Line NA
+DisplayName=Tokyo Dark Storm Circle Line NA
+SetLogonBackground=0
+
+[Control Panel\Cursors]
+AppStarting=%ResourceDir%\Themes\Tokyo Night\cursors\busy.ani
+Arrow=%ResourceDir%\Themes\Tokyo Night\cursors\arrow.cur
+Crosshair=%ResourceDir%\Themes\Tokyo Night\cursors\cross.cur
+Hand=%ResourceDir%\Themes\Tokyo Night\cursors\link.cur
+Help=%ResourceDir%\Themes\Tokyo Night\cursors\helpsel.cur
+IBeam=%ResourceDir%\Themes\Tokyo Night\cursors\ibeam.cur
+No=%ResourceDir%\Themes\Tokyo Night\cursors\unavail.cur
+NWPen=%ResourceDir%\Themes\Tokyo Night\cursors\pen.cur
+SizeAll=%ResourceDir%\Themes\Tokyo Night\cursors\move.cur
+SizeNESW=%ResourceDir%\Themes\Tokyo Night\cursors\nesw.cur
+SizeNS=%ResourceDir%\Themes\Tokyo Night\cursors\ns.cur
+SizeNWSE=%ResourceDir%\Themes\Tokyo Night\cursors\nwse.cur
+SizeWE=%ResourceDir%\Themes\Tokyo Night\cursors\ew.cur
+UpArrow=%ResourceDir%\Themes\Tokyo Night\cursors\up.cur
+Wait=%ResourceDir%\Themes\Tokyo Night\cursors\wait.ani
+DefaultValue=Windows Default
+DefaultValue.MUI=@main.cpl,-1020
+
+[Control Panel\Desktop]
+Wallpaper=%SystemRoot%\Resources\Themes\Tokyo Night\Previews\Tokyo Night Storm Circle Line.png
+TileWallpaper=0
+WallpaperStyle=10
+Pattern=
+
+[VisualStyles]
+Path=%ResourceDir%\Themes\Tokyo Night\Tokyo Dark Storm Circle Line NA.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=0
+ColorizationColor=0XC42AC3DE
+AppMode=Dark
+SystemMode=Dark
+
+[boot]
+SCRNSAVE.EXE=
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=@%SystemRoot%\System32\mmres.dll,-800
+
+[Slideshow]
+Interval=1000000
+Shuffle=1
+ImagesRootPath=%SystemRoot%\Resources\Themes\Tokyo Night\Wallpapers\
